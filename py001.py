@@ -115,5 +115,5 @@ class Calculus:
     
     def show_histogram(self, arg):
         plt.scatter(self.count_long_high_delta[:,0],self.count_long_high_delta[:,1], color= "orange")
-        plt.scatter(self.count_long_low_delta[:,0],self.count_long_low_delta[:,1], color= "firebrick")
+        plt.scatter(self.count_long_low_delta[:,0],self.count_long_low_delta[:,1], color= "firebrick") #####
 
